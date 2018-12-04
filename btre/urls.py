@@ -15,6 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
+from listings.models import Listing
+from realtors.models import Realtor
 
 urlpatterns = [
     path('', include('pages.urls')),

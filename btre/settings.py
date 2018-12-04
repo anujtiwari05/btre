@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'pages.apps.PagesConfig',
     'listings',
     'realtors',
-    'btre'
+
 
 ]
 
